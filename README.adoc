@@ -1,3 +1,8 @@
 = Readme
 
 Showcases the case when the packages of a library are split across multiple jars & in this case some classes are the same. Implying, we have a need to have an option to override contents within the gradle transforms to override one jar content with other jar's content, so that the final module will be a merged module
+
+
+image::https://user-images.githubusercontent.com/452518/93385145-7117a280-f883-11ea-96b8-a7af452ad015.png[]
+
+As you can see the library `xmlpull` exposes `org.xmlpull.v1` packages with just 2 classes & `org.xmlpull.mxp1` that are unique to this jar, where as `kxml2` exposes `org.kxml2` & `org.xmlpull.v1` which has 4 classes
