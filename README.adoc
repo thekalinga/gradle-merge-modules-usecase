@@ -1,0 +1,3 @@
+= Readme
+
+Showcases the case when the packages of a library are split across multiple jars & in this case some classes are the same. Implying, we have a need to have an option to override contents within the gradle transforms to override one jar content with other jar's content, so that the final module will be a merged module
